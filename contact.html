@@ -8,31 +8,40 @@
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+            body {
+              background-image: url("assets/images/leaves.png");
+            }
+          </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-danger navbar-danger">
-        
-        <a class="navbar-brand text-dark"  href="#"><h1 class="display-4">Amy M Haerr</h1></a>
-        
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-danger">
+
+        <a class="navbar-brand text-dark" href="#">
+            <h1 class="display-4">Amy M Haerr</h1>
+        </a>
+
         <!-- Links -->
+        <div class="navbar-nav ml-auto">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
         </ul>
-      </nav>
-    
+        </div>
+    </nav>
+
 
     <section class="container">
         <h2>Contact</h2>
-   
+
         <form>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Name</label>
@@ -40,7 +49,6 @@
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Email</label>
-                <!-- <select class="form-control" id="exampleFormControlSelect1"> -->
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="janedoe@anywho.com">
                 </select>
             </div>
@@ -52,7 +60,21 @@
             <button type="button" class="btn btn-primary">Submit</button>
         </form>
 
-        <div class="footer-copyright text-center py-3">© 2020 Copyright Amy M Haerr</div>
+        <style>
+            .footer {
+              position: fixed;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              background-color: grey;
+              color: white;
+              text-align: center;
+            }
+            </style>
+            
+            <div class="footer">
+              <p>© 2020 Copyright: Amy M Haerr</p>
+            </div>>
 
 
 </body>
